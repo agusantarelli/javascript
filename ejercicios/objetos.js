@@ -9,7 +9,16 @@
 // No se olviden de agregar una prueba unitaria que compruebe la consigna que inventaron
 // Las pruebas estan en: ./__tests__/objetos.test.js
 function unObjeto() {
-  
+    return {
+        a: 1,
+        b: 'hola',
+        c: 'como',
+        d: 'estas',
+        array: [1,2,3,4],
+        borrado: false,
+        porDefinir: null,
+        noExiste: undefined
+    }
 }
 
 module.exports = unObjeto
